@@ -18,11 +18,9 @@ for (let j = 0; j < data.length; j++) {
         if(element[0] !== undefined){
             if(element[2] !== undefined){
                 auxArray.push(element[0] + "=" + element[2])
-                //console.log(element[0] + "=" + element[2])
             }
             else{
                 auxArray.push(element[0]);
-                //console.log(element[0])
             }
         }else{
             auxArray.push(null);
